@@ -1,7 +1,7 @@
 package algorithms.bubbleSort;
 
 public class IterativeBubbleSort {
-    void iterativeBubbleSort(int list[], int length) {
+    void iterativeBubbleSort(int list[]) {
         int length = list.length;
         for(int index=0; index < length; index++) {  
             for(int j=1; j < length-index; j++) {  
